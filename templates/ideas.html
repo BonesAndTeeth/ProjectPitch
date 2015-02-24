@@ -1,0 +1,9 @@
+{% for idea in ideas %}
+<ul>
+	<li>{{ idea.user }}</li>
+	<li>{{ idea.title }}</li>
+	<li>{{ idea.content }}</li>
+	<li>{{ idea.tags }}</li>
+</ul>
+
+{% endfor %}
